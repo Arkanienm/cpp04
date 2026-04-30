@@ -27,6 +27,7 @@ WrongAnimal::WrongAnimal(const WrongAnimal& src)
 
 void WrongAnimal::makeSound() const
 {
+	std::cout << "Wrong Meow" << std::endl;
 }
 
 std::string WrongAnimal::getType() const

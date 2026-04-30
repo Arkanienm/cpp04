@@ -20,7 +20,7 @@ Dog& Dog::operator=(Dog const &src)
 	return *this;
 }
 
-Dog::Dog(const Dog& src)
+Dog::Dog(const Dog& src) : Animal()
 {
 	*this = src;
 	std::cout << "Dog copy constructor called" << std::endl;
